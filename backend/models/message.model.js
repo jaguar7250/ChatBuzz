@@ -15,6 +15,14 @@ const messageSchema=new mongoose.Schema({
         type:String,
         required:true,
     },
+    flag1:{
+        type:Boolean,
+        default: false,
+    },
+    flag2:{
+        type:Boolean,
+        default: false,
+    }
 },
     {timestamps:true}
 );
